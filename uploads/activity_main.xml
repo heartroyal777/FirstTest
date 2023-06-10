@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     tools:context=".MainActivity">
+
+    <RelativeLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_margin="16dp"
+             android:id="@+id/selectFileButton"
+             android:text="Choose File" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_below="@id/selectFileButton"
+             android:layout_margin="16dp"
+             android:id="@+id/filePathTextView"
+             android:text="No file selected" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_margin="16dp"
+             android:layout_alignParentBottom="true"
+             android:id="@+id/uploadFileButton"
+             android:text="Upload File" />
+
+        <ProgressBar
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:visibility="gone"
+             android:max="100"
+             style="?android:attr/progressBarStyleHorizontal"
+             android:id="@+id/uploadProgressBar" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
