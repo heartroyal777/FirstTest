@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Camping Gear</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+
+  header {
+    background: linear-gradient(-45deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			max-width: 960px;
+			margin: 20px auto;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		
+		nav li {
+			margin: 0 10px;
+		}
+		
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 16px;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 10px;
+			border-radius: 5px;
+			transition: background-color 0.2s ease;
+		}
+		
+		nav a:hover {
+			background-color: #fff;
+			color: #333;
+		}
+
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  section {
+    flex-basis: 65%;
+    margin-bottom: 20px;
+    background-color: #bdf3ee;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  /* Media query for mobile view */
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+
+    nav {
+      flex-direction: column;
+    }
+			
+			nav li {
+				margin: 10px 0;
+			}
+			
+			section {
+				flex-basis: 45%;
+			}
+		}
+
+		/* Style for the footer */
+footer {
+  background-color: #535973;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 20px 0 0;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+	
+		</style>
+		
+	<body>
+	<header>
+		<h1>Welcome to My Camping Gear</h1>
+		<nav>
+			<ul>
+				<li><a href="/RCC/homepage.html">Home</a></li>
+				<li><a href="/RCC/reviewpage.html">Reviews</a></li>
+				<li><a href="#">Camping Equipment</a></li>
+				<li><a href="#">Furniture</a></li>
+				<li><a href="#">Offers and Packages</a></li>
+				<li><a href="#">Basket</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>We are a camping gear company that provides quality gear at affordable prices. Our products are designed to make your camping experience comfortable and memorable.</p>
+		</section>
+		
+		<section>
+			<h2>Featured Products</h2>
+			<div class="product">
+				<img src="https://sc04.alicdn.com/kf/Hd4172d8f55d149fc851df73470e1f132K.jpg" alt="Tent">
+				<h3>Tent</h3>
+				<p>$100</p>
+			</div>
+			<div class="product">
+				<img src="https://kdvr.com/wp-content/uploads/sites/11/2021/10/1040x585-2021-0916-coleman-sleeping-bag-vs-north-face-sleeping-bag-ae9414.jpg" alt="Sleeping Bag">
+				<h3>Sleeping Bag</h3>
+				<p>$50</p>
+			</div>
+			<div class="product">
+				<img src="https://www.roadaffair.com/wp-content/uploads/2019/03/camping-stove-mountain-shutterstock_1007093662-1024x683.jpg" alt="Camping Stove">
+				<h3>Camping Stove</h3>
+				<p>$75</p>
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		<ul>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Instagram</a></li>
+		</ul>
+		<p>&copy; My Camping Gear 2023</p>
+	</footer>
+</body>
+</html>
