@@ -1,1 +1,2 @@
-Hello မင်္ဂလာပါ, update text for use api
+Hello မင်္ဂလာပါ, 
+test realtime data post
