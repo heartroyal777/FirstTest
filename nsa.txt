@@ -1,11 +1,2 @@
 Hello မင်္ဂလာပါ, 
-test realtime data post, 
-test
-test
-test
-abc
-def
-hi hi
-hello world
-aaaaaaaaa
-nnnnnnnn
+test realtime data post
