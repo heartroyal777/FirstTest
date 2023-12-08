@@ -1,4 +1,3 @@
-// sample
 <?php
 
 $url = "https://2022.myanmarexam.org/";
